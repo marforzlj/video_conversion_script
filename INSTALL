@@ -1,0 +1,48 @@
+Place a copy of the video_conversion_script.sh in an executable path such
+as ~/bin
+
+Prerequisites:
+
+The script utilises ffmpeg and ffmpeg2theora which should be available from
+distro's repo. If not, or the provided ffmpeg wasn't built with the required
+encoder support then ffmpeg source can be found at:
+
+http://ffmpeg.org/download.html
+
+For Android and Apple devices:
+
+./configure it with --enable-libx264 included.
+
+x264 encoder can be found in distro's repo or at:
+
+http://www.videolan.org/developers/x264.html
+
+It utilises ffmpeg preset files as well. If ffmpeg was unable to find them,
+then easiest is to copy them to ~/.ffmpeg. Else set the path accordingly as
+documented at: http://ffmpeg.org/ffmpeg-doc.html#SEC13
+
+ffmpeg2theora source can be found at:
+
+http://v2v.cc/~j/ffmpeg2theora/download.html
+
+For WebM:
+
+./configure it with --enable-libvpx --enable-libvorbis included.
+
+libvpx source can be found at:
+
+http://code.google.com/p/webm/downloads/list
+
+libvorbis source can be found at:
+
+http://www.xiph.org/downloads/
+
+libvorbis required libogg which is available at the same location.
+
+For MP3 Audio:
+
+./configure it with --enable-libmp3lame included.
+
+libmp3lame source can be found at:
+
+http://lame.sourceforge.net/

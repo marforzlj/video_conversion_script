@@ -1,0 +1,8 @@
+video_conversion_script:
+
+A shell script that utilises ffmpeg and ffmpeg2theora to simplify the
+video conversion process.
+
+The conversion matrix used was based on:
+
+https://develop.participatoryculture.org/index.php/ConversionMatrix
