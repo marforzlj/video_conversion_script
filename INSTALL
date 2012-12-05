@@ -1,6 +1,8 @@
 Place a copy of the video_conversion_script.sh in an executable path such
 as ~/bin
 
+Usage: video_conversion_script.sh <input-file>
+
 Prerequisites:
 
 The script utilises ffmpeg and ffmpeg2theora which should be available from
