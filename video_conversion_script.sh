@@ -22,7 +22,7 @@
 
 FILE=$1
 
-if [ -z "${FILE}" ]
+if [ -z "$FILE" ]
 then
     echo "Usage: ./video_conversion_script.sh {path-to-file}"
 else
