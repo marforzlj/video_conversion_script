@@ -5,9 +5,10 @@ Usage: video_conversion_script.sh <input-file>
 
 Prerequisites:
 
-The script utilises ffmpeg and ffmpeg2theora which should be available from
-distro's repo. If not, or the provided ffmpeg wasn't built with the required
-encoder support then ffmpeg source can be found at:
+The script utilises ffmpeg which should be available from distro's repo. 
+
+If not, or the provided ffmpeg wasn't built with the required encoder 
+support then ffmpeg source can be found at:
 
 http://ffmpeg.org/download.html
 
@@ -22,10 +23,6 @@ http://www.videolan.org/developers/x264.html
 It utilises ffmpeg preset files as well. If ffmpeg was unable to find them,
 then easiest is to copy them to ~/.ffmpeg. Else set the path accordingly as
 documented at: http://ffmpeg.org/ffmpeg-doc.html#SEC13
-
-ffmpeg2theora source can be found at:
-
-http://v2v.cc/~j/ffmpeg2theora/download.html
 
 For WebM:
 
